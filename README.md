@@ -9,7 +9,7 @@
 
 **Youssef started learning C++ with me from scratch. Despite being in middle school, he showed incredible enthusiasm, stayed for full sessions, and kept pushing forward. Thanks to his effort and early mentorship, he won the prestigious Al-Quds coding competition, earned a scholarship from the Egyptian Ministry of Communications, and qualified for the National Olympiad in Informatics. I’m truly proud to have been part of his journey. He reminds us that early encouragement can unlock greatness.**
 
-**Youssef a success story:** [Yossef](./images/feedback/3-3-youseeffeedback.png)
+**Youssef a success story:** ![Yossef](./images/feedback/3-3-youseeffeedback.png)
 
 **View all of Youssef’s messages expressing his appreciation:** [Youssef](./Success-Story.md)
 

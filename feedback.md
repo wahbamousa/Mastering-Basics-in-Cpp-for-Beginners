@@ -18,6 +18,10 @@
 
 ### Live Sessions
 
+**I’m very proud of evry one stayed with me until the end of every session, which lasted nearly 4 hours.**
+
+![**From passion to help all, Live Session takes time for 4:00H**](./images/sessions/4Hsession.png)
+
 ![**7**](./images/sessions/freesession(4).png)
 
 ![**8**](./images/sessions/freesession(2).png)

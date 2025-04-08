@@ -1,6 +1,6 @@
-## 📸 Youssef Success Story.
+# 📸 Youssef Success Story.
 
-## A pro active student
+## Youssef is A pro active
 
 ![Youssef activities Photo](./images/feedback/4-yousedaproactive.png)
 
@@ -16,9 +16,6 @@
 
 ![**As a result**](./images/feedback/3-youseeffeedback.png)
 
-**I’m very proud of Youssef — he was proactive and stayed with me until the end of every session, which lasted nearly 4 hours.**
-
-![**From passion to help all, Live Session takes time for 4:00H**](./images/sessions/4Hsession.png)
 
 ## 📸 Highlights from this Book **Free** Live Sessions in Action.
 
