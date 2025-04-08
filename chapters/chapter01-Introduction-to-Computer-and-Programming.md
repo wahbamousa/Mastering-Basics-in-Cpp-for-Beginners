@@ -97,7 +97,6 @@ There is **no specific age**. A 5-year-old child may learn several programming l
 
 Programming languages are **tools** used to write programming code. Just like tires are not the entire car but part of it, programming languages help build software—but it’s the **problem-solving ability** that matters most.
 
-----------
 
 ## Computer System
 
@@ -116,7 +115,6 @@ Includes physical components such as:
 -   Input and output devices
     
 
-----------
 
 ## CPU (Central Processing Unit)
 
@@ -137,9 +135,9 @@ When the CPU executes a program, it goes through the **Fetch–Decode–Execute*
     
 
 These steps repeat as long as instructions remain.
+
 ![CPU Diagram](../images/chapter1/cpu.png)
 
-----------
 
 ## Computer Memory
 
@@ -150,8 +148,6 @@ These steps repeat as long as instructions remain.
 -   Every byte has a unique address.
     
 
-----------
-
 ### Main Memory (RAM)
 
 -   Also called **primary** or **volatile** memory.
@@ -161,16 +157,12 @@ These steps repeat as long as instructions remain.
 -   Content is lost when the computer is powered off.
     
 
-----------
-
 ### Secondary Storage
 
 -   Stores data **long-term**, even without power.
     
 -   Examples: Hard drives, USB drives, CDs, DVDs.
     
-
-----------
 
 ### Input Devices
 
@@ -183,8 +175,6 @@ Collect and send information to the computer. Examples:
 -   Microphone
     
 
-----------
-
 ### Output Devices
 
 Display or output data from the computer. Examples:
@@ -195,8 +185,6 @@ Display or output data from the computer. Examples:
     
 -   Speaker
     
-
-----------
 
 ## Software Types
 
@@ -220,8 +208,6 @@ Programs used for daily tasks, such as:
 -   Presentation tools (e.g., PowerPoint)
     
 
-----------
-
 ## Programming Languages
 
 -   **Low-Level Languages**: Closer to machine code (e.g., binary)
@@ -231,7 +217,6 @@ Programs used for daily tasks, such as:
 
 C++ is a combination of both low- and high-level languages. It does not manage memory automatically and works across different systems (e.g., Windows, macOS).
 
-----------
 
 ## Program Structure
 
@@ -239,8 +224,6 @@ C++ is a combination of both low- and high-level languages. It does not manage m
     
 -   **Source File**: The file where the code is saved
     
-
-----------
 
 ## Program Cycle
 
@@ -254,8 +237,6 @@ C++ is a combination of both low- and high-level languages. It does not manage m
     
 5.  **Linker** – Combines object code with libraries to produce an **executable file**
     
-
-----------
 
 ## Program Components
 
@@ -277,8 +258,6 @@ C++ is a combination of both low- and high-level languages. It does not manage m
     
 9.  **Variable Definitions** – Declare the type and create memory space (e.g., for numbers or characters)
     
-
-----------
 
 ## Program Activities
 
@@ -323,8 +302,6 @@ A good program checks for:
 3.  **Output** – Display results to the user
     
 
-----------
-
 ## Software Engineering
 
 The process of developing software, including:
@@ -342,13 +319,12 @@ The process of developing software, including:
 -   Maintaining software systems
     
 
-----------
-
 ## Procedural vs Object-Oriented Programming
 
 ### Procedural Programming
 
 Uses **functions or procedures**, which are groups of statements performing specific tasks. Procedures can share variables.
+
 ![Procedural Diagram](../images/chapter1/procedural.png)
 
 ### Object-Oriented Programming (OOP)

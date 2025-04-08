@@ -2,26 +2,17 @@
 
 *A beginner-friendly guide to learning C++ from scratch. Build a strong foundation with clear explanations, hands-on examples, and practical projects.*
 
-[![Beta](https://img.shields.io/badge/Status-Beta-orange)](https://github.com/wahbamousa/repo-name) [![License](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey)](https://creativecommons.org/licenses/by-nc/4.0/) **Under Development**
----
+[![Beta](https://img.shields.io/badge/Status-Beta-orange)](https://github.com/wahbamousa/Mastering-Basics-in-Cpp-for-Beginners) [![License](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey)](https://creativecommons.org/licenses/by-nc/4.0/) **Under Development**
 
-## 📸 Highlights from this Book **Free** Live Sessions in Action.
 
-![Youssef activities Photo](./images/feedback/4-yousedaproactive.png)
+## 📸 A Success Story.
 
-![Youssef Feedback & results from my efforts with him](./images/feedback/1-youseffeedback.png)
+**Youssef started learning C++ with me from scratch. Despite being in middle school, he showed incredible enthusiasm, stayed for full sessions, and kept pushing forward. Thanks to his effort and early mentorship, he won the prestigious Al-Quds coding competition, earned a scholarship from the Egyptian Ministry of Communications, and qualified for the National Olympiad in Informatics. I’m truly proud to have been part of his journey. He reminds us that early encouragement can unlock greatness.**
 
-![*Youssef says:*](./images/feedback/2-youseeffeedback.png)
+**Youssef a success story:** [Yossef](./images/feedback/3-3-youseeffeedback.png)
 
-![**As a result**](./images/feedback/3-youseeffeedback.png)
+**View all of Youssef’s messages expressing his appreciation:** [Youssef](./Success-Story.md)
 
-**I AM very proud by Youssef**
-
-![**From passion to help all, Live Session takes time for 4:00H**](./images/sessions/4Hsession.png)
-
-See all the session photos and feedback here 👉 [Session Highlights](./feedback.md)
-
----
 
 ## 📖 Book Overview
 
@@ -29,7 +20,6 @@ This book is the result of intense effort, dedication, and over 3 hours of daily
 
 > 📚 Run all code examples in Visual Studio to see output live.
 
----
 
 ## 📅 Table of Contents
 - [Book Content](./source/chapters.md)
@@ -40,14 +30,12 @@ This book is the result of intense effort, dedication, and over 3 hours of daily
 - [Author Bio](#-about-the-author)
 - [References](#-references)
 
----
 
 ## 📂 Resources
 
 - [📜 License & Legal Notice](./CODE_OF_CONDUCT.md)
 - [🤝 Contribution Guide](./CONTRIBUTING.md)
 
----
 
 ## 🎯 Key Features
 - **Zero to Hero:** Start with "Hello World" and progress to clean, efficient code
@@ -55,7 +43,6 @@ This book is the result of intense effort, dedication, and over 3 hours of daily
 - **Hands-On Learning:** 50+ exercises and projects
 - **Free & Open Source:** No paywalls, forever
 
----
 
 ## 👩🎓 Who Should Read This?
 - Absolute beginners in programming
@@ -66,14 +53,12 @@ This book is the result of intense effort, dedication, and over 3 hours of daily
 - A computer (Windows/macOS/Linux)
 - Basic understanding of math and English
 
----
 
 ## ⏳ What You Will Save
 - **Time:** Skip fragmented tutorials
 - **Money:** Free alternative to paid courses
 - **Effort:** Gain practical, industry-relevant skills
 
----
 
 ## 🌍 Real-World Applications
 - File I/O and formatting
@@ -82,13 +67,11 @@ This book is the result of intense effort, dedication, and over 3 hours of daily
 - Object-oriented design with UML
 - Simulation and project-based learning
 
----
 
 ## 👨‍💻 About the Author
 
 I am a **Senior DevOps Engineer** with 10+ years of experience in cloud automation, infrastructure as code (IaC), and CI/CD pipeline optimization. My expertise lies in designing, building, and securing scalable cloud environments using **Terraform**, **Kubernetes**, and **GitHub Advanced Security** across **Azure** and **AWS**.
 
----
 
 ### 🚀 Key Achievements
 - ⚙️ Reduced deployment time by 50% through advanced CI/CD automation and IaC
@@ -96,51 +79,44 @@ I am a **Senior DevOps Engineer** with 10+ years of experience in cloud automati
 - ☸️ Built and managed high-availability Kubernetes clusters (AKS & EKS) with Terraform & Helm
 - 🛡️ Designed enterprise-scale DevOps architectures with security-first, automation-driven approaches
 
----
 
 ### 💡 What I’m Passionate About
 - **Driving Innovation:** Improving efficiency, security, and reliability
 - **Mentoring & Knowledge Sharing:** Helping engineers grow and succeed
 - **Automation & Cloud Optimization:** Implementing smart, scalable infrastructure
 
-📩 *Let’s connect: **`engineerwahba@gmail.com`** to discuss cloud automation, DevOps best practices, and scaling modern infrastructure!*
+📩 *Let’s connect to discuss cloud automation, DevOps best practices, and scaling modern infrastructure!*
 
----
 
 ## 🚀 Continuous Integration and Branch Protection
 
-This repository employs GitHub Actions for Continuous Integration (CI) to ensure that all code changes meet our quality standards before being merged into the main branch. :contentReference[oaicite:2]{index=2}
-
+This repository employs GitHub Actions for Continuous Integration (CI) to ensure that all code changes meet our quality standards before being merged into the main branch. 
 ### 🔄 Continuous Integration with GitHub Actions
 
 Our CI pipeline is defined using GitHub Actions workflows, which automate the building and testing of code changes. This automation helps in early detection of issues and maintains the integrity of our codebase. :contentReference[oaicite:3]{index=3}
 
----
 
 ## 🔒 Security Best Practices (GHAS Compliant)
 
 This repository follows **GitHub Advanced Security** principles:
 
-- ✅ [x] **Secret scanning enabled**
-- ✅ [x] **Code scanning setup with GitHub Actions**
-- ✅ [x] **Security advisories & policies available**
-- ✅ [x] **Community health files present (README, LICENSE, CODE_OF_CONDUCT, etc.)**
+- ✅  **Secret scanning enabled**
+- ✅  **Code scanning setup with GitHub Actions**
+- ✅  **Security advisories & policies available**
+- ✅  **Community health files present (README, LICENSE, CODE_OF_CONDUCT, etc.)**
 
 Please report any vulnerabilities through the [`SECURITY.md`](./SECURITY.md) policy.
 
----
 
 ## ✍️ Contribution Guidelines
 
 You're welcome to improve grammar, format chapters, or add code examples. Read our [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
 
----
 
 ## 📦 Managing Large Files with Git LFS
 
 This repository utilizes [Git Large File Storage (LFS)](https://git-lfs.github.com/) to handle large files efficiently.
 
----
 
 ## 📚 References
 
@@ -151,7 +127,6 @@ This repository utilizes [Git Large File Storage (LFS)](https://git-lfs.github.c
 - D.S. Malik. *Data Structures Using C++*, 2nd ed., Cengage.
 - Thomas H. Cormen. *Introduction to Algorithms*, MIT Press.
 
----
 
 ## 📢 Stay Connected
 

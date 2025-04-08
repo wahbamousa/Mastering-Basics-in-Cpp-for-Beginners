@@ -210,7 +210,6 @@ cout << setprecision(6) << showpoint << x << endl << y;
 ```
 
 
-
 ## Working with Characters and String Objects
 
 When using `cin` to read string input, it ignores whitespace characters like spaces and tabs. It starts reading from the first nonblank character and stops when it hits the next whitespace character.
@@ -303,8 +302,6 @@ ch = cin.get(); // reads newline left in buffer
 The `cin >>` operation stops reading at the newline (`\n`), which stays in the buffer. `cin.get()` then reads that newline instead of a new character.
 
 ## Difference Between `cin`, `get`, and `getline`
-
-
 
 cin didn’t read or store newline character (Enter) \n or space so, no problem of putting it after getline or get. but getline reads any space and newline character from keyboard \n and store it  so, it’s a problem to put it after cin or get because it will read \n then  finishes and no problem of putting it before them because it read and store \n. get read any space and newline \n like getline but didn’t store newline so, it’s problem to put it after cin because it will read \n of cin or before getline because getline will read its \n and finish.
 
@@ -608,5 +605,5 @@ using namespace std;
 
 But `#include<iostream.h>` may not be supported in modern compilers like Visual Studio.
 
-----------
+
 

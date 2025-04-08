@@ -28,82 +28,93 @@
 12.  `}`: Marks the end of the `main` function.
     
 
-## Common Escape Sequences
+## 🔁 Common Escape Sequences
 
-Escape Sequence   Name              Description
------------------ ---------------- ------------------------------------------
-' '               Space             Regular space
-\n                Newline           Move cursor to next line
-\t                Horizontal tab    Skip to next tab stop (~8 spaces)
-\a                Alarm             Makes the computer beep
-\b                Backspace         Moves cursor left
-\r                Return            Moves cursor to beginning of line
-\\                Backslash         Prints backslash
-\'                Single quote      Prints single quote
-\"                Double quote      Prints double quote
-\x                Hexadecimal       E.g., \x74 prints character 't'
+| Escape Sequence | Name             | Description                                |
+|------------------|------------------|--------------------------------------------|
+| `' '`            | Space            | Regular space                              |
+| `\n`             | Newline          | Move cursor to next line                   |
+| `\t`             | Horizontal tab   | Skip to next tab stop (~8 spaces)          |
+| `\a`             | Alarm            | Makes the computer beep                    |
+| `\b`             | Backspace        | Moves cursor left                          |
+| `\r`             | Return           | Moves cursor to beginning of line          |
+| `\\`             | Backslash        | Prints a backslash                         |
+| `\'`             | Single quote     | Prints a single quote                      |
+| `\"`             | Double quote     | Prints a double quote                      |
+| `\x`             | Hexadecimal      | E.g., `\x74` prints the character `'t'`    |
+
 
 
 Hexadecimal notation, e.g., `cout << "\x74";` prints character `t`
 
 **Note**: `\n` is equivalent to `"\n"`.
 
-## Bitwise Operators
+## 🧮 Bitwise Operators
 
-It works on bit.
------------------
--   `&` AND    
--   `|` OR
--   `^` XOR (exclusive OR)
--   `~` NOT (complement)
--   `<<` Shift bits left
--   `>>` Shift bits right
+Bitwise operators work directly on binary representations of integers.
+
+| Operator | Name             | Description                    |
+|----------|------------------|--------------------------------|
+| `&`      | AND              | Sets each bit to 1 if both bits are 1 |
+| `|`      | OR               | Sets each bit to 1 if one of two bits is 1 |
+| `^`      | XOR              | Sets each bit to 1 if only one of two bits is 1 (exclusive OR) |
+| `~`      | NOT              | Inverts all the bits (bitwise complement) |
+| `<<`     | Shift Left       | Shifts bits to the left (multiplies by 2ⁿ) |
+| `>>`     | Shift Right      | Shifts bits to the right (divides by 2ⁿ) |
+
 
 ## Mathematical Expressions and Operator Precedence
 
 Mathematical expressions return values, e.g., `sum = 21 + 3;`. Operators are evaluated left to right, and precedence determines the order:
 
-**Precedence of Arithmetic Operators (Highest to Lowest):**
+## 🔢 Precedence of Arithmetic Operators (Highest to Lowest)
 
-1.  `()` Parentheses
-    
-2.  `* / %`
-    
-3.  `+ -`
+| Level | Operator(s) | Description            |
+|-------|-------------|------------------------|
+| 1     | `()`        | Parentheses – evaluated first |
+| 2     | `* / %`     | Multiplication, Division, Modulus |
+| 3     | `+ -`       | Addition, Subtraction  |
+
     
 
-**Operator’s associativity of same precedence:**
+## 🔁 Operator Associativity (Same Precedence Level)
 
--   `* / %` -> Left to Right
-    
--   `+ -` -> Left to Right
+When multiple operators of the same precedence appear, **associativity** determines the order of evaluation.
+
+| Operators   | Associativity   | Example Order         |
+|-------------|-----------------|------------------------|
+| `* / %`     | Left to Right   | `a * b / c % d` → (((a * b) / c) % d) |
+| `+ -`       | Left to Right   | `a + b - c` → ((a + b) - c)           |
+
     
 **Grouping with Parentheses:** parts of mathematical expression may be grouped with parentheses to force some operations to be performed before others.     
 
 **Example**: `(5 + 2) * 4 = 28`
 
-### Algebraic to C++ Conversion Examples
+## 🔄 Algebraic to C++ Conversion Examples
 
-Algebraic Expression            Operation             C++ Equivalent
-----------------------------    -------------------   -------------------------------
-(3)(12)                         3 times 12            3 * 12
-Y = 3x / 2                                            y = x / 2 * 3; or 3 * x / 2;
-a = (3x + 2) / (4a - 1)                               a = (3 * x + 2) / (4 * a - 1)
-average = a + b + c / 3.0     ← incorrect             Wrong!
-average = (a + b + c) / 3.0   ← correct               ✅ Correct
+| Algebraic Expression         | Operation Description     | C++ Equivalent                         |
+|-----------------------------|---------------------------|----------------------------------------|
+| `(3)(12)`                   | 3 times 12                | `3 * 12`                               |
+| `Y = 3x / 2`                | Assign result to Y        | `y = 3 * x / 2;` or `y = x / 2 * 3;`   |
+| `a = (3x + 2) / (4a - 1)`   | Fractional expression     | `a = (3 * x + 2) / (4 * a - 1);`       |
+| `average = a + b + c / 3.0` | Incorrect (no parentheses)| ❌ Wrong!                              |
+| `average = (a + b + c) / 3.0`| Correct grouping          | ✅ Correct                              |
 
+## 🧠 Data Type Ranking (Highest to Lowest Precision)
 
-## Data Type Ranking (Highest to Lowest)
+This ranking helps understand how data types compare in terms of size and precision.
 
-Rank  Data Type
------ --------------------------
-1     long double
-2     double
-3     float
-4     unsigned long
-5     long
-6     unsigned int
-7     int
+| Rank | Data Type       |
+|------|------------------|
+| 1    | `long double`    |
+| 2    | `double`         |
+| 3    | `float`          |
+| 4    | `unsigned long`  |
+| 5    | `long`           |
+| 6    | `unsigned int`   |
+| 7    | `int`            |
+
     
 When operator’s operands are of different data types, C++ automatically convert them to same data type. this can affect results of mathematical expressions. this automatic conversion is known as type coercion. when value is converted to higher data type, it is said to be promoted. to demote value means to convert it to a lower data type. look at specific rules that govern evaluation of mathematical expressions.    
 
@@ -116,37 +127,39 @@ When operator’s operands are of different data types, C++ automatically conver
 3.  Final expression result is converted to the receiving variable type
     
 
-## Data Type Operations
+## 🧮 Data Type Operations
 
-Operand Types                  Result Type
-----------------------------   -----------------
-int (+ - * /) int              int
-int (+ - * /) float            float
-int/float with double          double
+This table shows the resulting data type when performing arithmetic operations with different operand types.
+
+| Operand Types           | Result Type |
+|-------------------------|-------------|
+| `int (+ - * /) int`     | `int`       |
+| `int (+ - * /) float`   | `float`     |
+| `int` or `float` with `double` | `double` |
+
     
 
-## C++ Operator Precedence Table
+## 🧮 C++ Operator Precedence Table
 
-Level  Precedence Group           Operator(s)                   Description                         Grouping
------  -------------------------- ----------------------------- ---------------------------------- -------------
-1      Scope                      ::                            Scope qualifier                    Left-to-right
-2      Postfix (unary)            ++  --  ()  []  .  ->         Postfix inc/dec, call, subscript   Left-to-right
-3      Prefix (unary)             ++  --  ~  !  +  -  &  *       Prefix ops, deref, logic/bit not   Right-to-left
-                                 new  delete sizeof (type)      Allocation, size, typecast
-4      Pointer-to-member          .*  ->*                        Member pointer access              Left-to-right
-5      Arithmetic: scaling        *  /  %                        Multiply, divide, modulo           Left-to-right
-6      Arithmetic: addition       +  -                           Addition, subtraction              Left-to-right
-7      Bitwise shift              <<  >>                         Shift left, shift right            Left-to-right
-8      Relational                 <  >  <=  >=                   Comparisons                        Left-to-right
-9      Equality                   ==  !=                         Equality / inequality              Left-to-right
-10     Bitwise AND                &                              Bitwise AND                        Left-to-right
-11     Bitwise XOR                ^                              Bitwise exclusive OR               Left-to-right
-12     Bitwise OR                 |                              Bitwise inclusive OR               Left-to-right
-13     Logical AND                &&                             Logical AND                        Left-to-right
-14     Logical OR                 ||                             Logical OR                         Left-to-right
-15     Assignment / ternary       =  +=  -=  *=  /=              Assignment                         Right-to-left
-                                 %=  >>=  <<=  &=  ^=  |=  ?:   Compound assign, ternary
-16     Sequencing                 ,                              Comma separator                    Left-to-right
+| Level | Group                  | Operator(s)                                           | Description                          | Grouping         |
+|-------|------------------------|--------------------------------------------------------|--------------------------------------|------------------|
+| 1     | Scope                  | `::`                                                  | Scope qualifier                      | Left-to-right    |
+| 2     | Postfix (unary)        | `++` `--` `()` `[]` `.` `->`                          | Postfix inc/dec, call, subscript     | Left-to-right    |
+| 3     | Prefix (unary)         | `++` `--` `~` `!` `+` `-` `&` `*`                      | Prefix ops, deref, logic/bit not     | Right-to-left    |
+|       |                        | `new` `delete` `sizeof` `(type)`                      | Allocation, size, typecast           |                  |
+| 4     | Pointer-to-member      | `.*` `->*`                                            | Member pointer access                | Left-to-right    |
+| 5     | Arithmetic: scaling    | `*` `/` `%`                                           | Multiply, divide, modulo             | Left-to-right    |
+| 6     | Arithmetic: addition   | `+` `-`                                               | Addition, subtraction                | Left-to-right    |
+| 7     | Bitwise shift          | `<<` `>>`                                             | Shift left, shift right              | Left-to-right    |
+| 8     | Relational             | `<` `>` `<=` `>=`                                     | Comparisons                          | Left-to-right    |
+| 9     | Equality               | `==` `!=`                                             | Equality / inequality                | Left-to-right    |
+| 10    | Bitwise AND            | `&`                                                   | Bitwise AND                          | Left-to-right    |
+| 11    | Bitwise XOR            | `^`                                                   | Bitwise exclusive OR                 | Left-to-right    |
+| 12    | Bitwise OR             | `|`                                                   | Bitwise inclusive OR                 | Left-to-right    |
+| 13    | Logical AND            | `&&`                                                  | Logical AND                          | Left-to-right    |
+| 14    | Logical OR             | `||`                                                  | Logical OR                           | Left-to-right    |
+| 15    | Assignment / ternary   | `=` `+=` `-=` `*=` `/=` `%=` `>>=` `<<=` `&=` `^=` `|=` `?:` | Assignment, compound, ternary       | Right-to-left    |
+| 16    | Sequencing             | `,`                                                   | Comma separator                      | Left-to-right    |
 
 
 ## Variables and Literals
@@ -155,36 +168,42 @@ Level  Precedence Group           Operator(s)                   Description     
 **Note:** string number = "5"; isn’t integer, but string literal. because number was defined as string variable.
 
     
--   A literal is a constant value (e.g., `"5"` is a string literal)
-    
-    Literal                        Type
-----------------------------   ------------------
-20, 0                         Integer literal
-"bushels of apples.\\n"       String literal
+## 🔢 Literals in C++
 
-## C++ Keywords
+A **literal** is a fixed value written directly in the code. For example, `"5"` is a **string literal**, while `20` is an **integer literal**.
 
-alignas        const            for              private          throw
-alignof        constexpr        friend           protected        true
-and            const_cast       goto             public           try
-and_eq         continue         if               register         typedef
-asm            decltype         inline           reinterpret_cast typeid
-auto           default          int              return           typename
-bitand         delete           long             short            union
-bitor          do               mutable          signed           unsigned
-bool           double           namespace        sizeof           using
-break          dynamic_cast     new              static           virtual
-case           else             noexcept         static_assert    void
-catch          enum             not              static_cast      volatile
-char           explicit         not_eq           struct           wchar_t
-char16_t       export           nullptr          switch           while
-char32_t       extern           operator         template         xor
-class          false            or               this             xor_eq
-compl          float            or_eq            thread_local
+| Literal                     | Type             |
+|----------------------------|------------------|
+| `20`, `0`                  | Integer literal  |
+| `"bushels of apples.\n"`   | String literal   |
+
+
+
+## 🧾 C++ Keywords List
+
+| alignas | const         | for            | private         | throw         |
+|---------|---------------|----------------|-----------------|---------------|
+| alignof | constexpr     | friend         | protected       | true          |
+| and     | const_cast    | goto           | public          | try           |
+| and_eq  | continue      | if             | register        | typedef       |
+| asm     | decltype      | inline         | reinterpret_cast| typeid        |
+| auto    | default       | int            | return          | typename      |
+| bitand  | delete        | long           | short           | union         |
+| bitor   | do            | mutable        | signed          | unsigned      |
+| bool    | double        | namespace      | sizeof          | using         |
+| break   | dynamic_cast  | new            | static          | virtual       |
+| case    | else          | noexcept       | static_assert   | void          |
+| catch   | enum          | not            | static_cast     | volatile      |
+| char    | explicit      | not_eq         | struct          | wchar_t       |
+| char16_t| export        | nullptr        | switch          | while         |
+| char32_t| extern        | operator       | template        | xor           |
+| class   | false         | or             | this            | xor_eq        |
+| compl   | float         | or_eq          | thread_local    |               |
+
 
 Keywords must be lowercase (e.g., `int`, `return`, `for`, `while`...)
 
-## Legal Identifiers
+## 🆔 Legal Identifiers
 
 Here are some specific rules that must be followed with all identifiers:
 
@@ -195,31 +214,33 @@ Here are some specific rules that must be followed with all identifiers:
 -   Are case-sensitive
     
 
-**Examples:**
+**Identifier Validity Examples**
 
-Identifier           Validity        Reason
--------------------  -------------   --------------------------------------
-dayOfWeek            Legal           Follows all rules
-3dGraph              Illegal         Cannot start with a digit
-employee_num         Legal           Uses only letters, digits, underscores
-June1997             Legal           Starts with a letter
-Mixture#3            Illegal         '#' is not allowed
-
+| Identifier        | Validity | Reason                                       |
+|------------------|----------|----------------------------------------------|
+| `dayOfWeek`      | Legal    | Follows all rules                            |
+| `3dGraph`        | Illegal  | Cannot start with a digit                    |
+| `employee_num`   | Legal    | Uses only letters, digits, underscores       |
+| `June1997`       | Legal    | Starts with a letter                         |
+| `Mixture#3`      | Illegal  | `#` is not allowed in identifiers            |
 
 ## Integer Data Types
 
 Variables are classified according to their data type, which determines kind of information that may be stored in them. integer variables only hold whole numbers. numeric data types are broken into two additional categories: integer and floating point. integers are whole numbers like 12, −34, floating point numbers have decimal point, like 23.0, 189.0231.
 
-Data Type              Size       Range
----------------------  ---------  ----------------------------------------------
-short int              2 bytes    -32,768 to 32,767
-unsigned short int     2 bytes    0 to 65,535
-int                    4 bytes    -2,147,483,648 to 2,147,483,647
-unsigned int           4 bytes    0 to 4,294,967,295
-long int               4 bytes    -2,147,483,648 to 2,147,483,647
-unsigned long int      4 bytes    0 to 4,294,967,295
-long long int          8 bytes    ±9,223,372,036,854,775,807
-unsigned long long     8 bytes    0 to 18,446,744,073,709,551,615
+ **Size and Range**
+
+| Data Type             | Size      | Range                                         |
+|-----------------------|-----------|-----------------------------------------------|
+| `short int`           | 2 bytes   | -32,768 to 32,767                             |
+| `unsigned short int`  | 2 bytes   | 0 to 65,535                                   |
+| `int`                 | 4 bytes   | -2,147,483,648 to 2,147,483,647               |
+| `unsigned int`        | 4 bytes   | 0 to 4,294,967,295                            |
+| `long int`            | 4 bytes   | -2,147,483,648 to 2,147,483,647               |
+| `unsigned long int`   | 4 bytes   | 0 to 4,294,967,295                            |
+| `long long int`       | 8 bytes   | ±9,223,372,036,854,775,807                    |
+| `unsigned long long`  | 8 bytes   | 0 to 18,446,744,073,709,551,615               |
+
 
 **Note:** you can delete int word in variable definition in all except reminding it (int) only.
 
@@ -264,28 +285,31 @@ Strings are series (array) of characters stored in consecutive memory locations,
 -   Next is to define string type variable, called string object. Example: `string movieTitle = "Fury Wheels";`
     
 
-## Floating-Point Data Types
+## 🔬 Floating-Point Data Types
 
 Floating-point data types are used to define variables that can hold real numbers, including fractional values such as `47,281.97`. In **scientific notation**, this number is written as `4.728197 × 10⁴`. The **mantissa** is the first part of the number (`4.728197`), and it's multiplied by a power of ten.
 
 In **E notation**, `47,281.97` would be represented as `4.728197E4`. This format is useful when working with extremely large or small numbers. In memory, a floating-point number is stored using the mantissa and the power of 10.
 
-### Examples
+**Scientific and E Notation Examples**
 
-| Decimal Notation | Scientific Notation | E Notation |
-|------------------|---------------------|------------|
-| 247.91           | 2.4791 × 10^2       | 2.4791E2   |
-| 0.00072          | 7.2 × 10^-4         | 7.2E-4     |
+| Decimal Notation | Scientific Notation  | E Notation |
+|------------------|----------------------|------------|
+| `247.91`         | 2.4791 × 10²         | `2.4791E2` |
+| `0.00072`        | 7.2 × 10⁻⁴           | `7.2E-4`   |
 
-### C++ Floating-Point Types
 
-C++ provides three data types for representing floating-point numbers:
+### 🌊 C++ Floating-Point Types
 
-| Data Type             | Keyword       | Description                                              |
-|-----------------------|---------------|----------------------------------------------------------|
-| Single precision      | float         | 4 bytes. Range: ±3.4E-38 to ±3.4E38                      |
-| Double precision      | double        | 8 bytes. Range: ±1.7E-308 to ±1.7E308                    |
-| Long double precision | long double   | Usually 8 bytes*. Some compilers use 10 bytes for wider range |
+C++ provides three data types for representing floating-point (decimal) numbers:
+
+| Data Type             | Keyword       | Description                                                        |
+|-----------------------|---------------|--------------------------------------------------------------------|
+| Single precision      | `float`       | 4 bytes. Range: ±3.4E−38 to ±3.4E38                                |
+| Double precision      | `double`      | 8 bytes. Range: ±1.7E−308 to ±1.7E308                              |
+| Long double precision | `long double` | Usually 8 bytes*. Some compilers use 10 or 16 bytes for wider range |
+
+> *Note: The exact size of `long double` depends on the system and compiler.
 
 ### Example
 
