@@ -373,4 +373,108 @@
 - **2.** Operator Precedence and Associativity from highest to lowest
 - **3.** Commonly Used Operators
 
+## Chapter 15: Searching and Sorting Arrays
+[Go to Full Chapter Content](../)
+- Introduction to Search Algorithms  
+- Linear Search  
+- Inefficiency of Linear Search  
+- Binary Search  
+- Binary Search Efficiency  
+- Sorting Algorithms  
+  - Bubble Sort  
+  - Selection Sort  
+- Case Study: Sales Reporting Program  
+- Apply Sorting and Searching Algorithms with STL vector as array  
+- Array and Vector Definition  
+
+## Chapter 16: Inheritance, Polymorphism, and Virtual Functions
+[Go to Full Chapter Content](../)
+- Inheritance and Relationship  
+- Protected Members and Class Access  
+- More About Base Class Access Specification  
+- Constructor and Destructor in Base, Derived Classes  
+- Passing Arguments to Base Class Constructors  
+- Redefining Base Class Functions with Function of Same Name in Derived Class  
+- Class Hierarchies  
+- Polymorphism and Virtual Member Functions  
+- Polymorphism Requires References or Pointers  
+- Base Class Pointers  
+- Base Class Pointers and References Know Only About Base Class Members Functions  
+- "Is-a" Relationship Doesn’t Work in Reverse  
+- Redefining vs Overriding  
+- Virtual Destructors  
+- `override` and `final` Identifiers  
+- Preventing Member Function from Being Overridden  
+- Abstract Base Classes and Pure Virtual Functions  
+- Combining Classes by Multiple Inheritance  
+
+## Chapter 17: Exceptions, Templates and Standard Template Library (STL)
+[Go to Full Chapter Content](../)
+- Exceptions (run time error)  
+- Throwing Exception  
+- Handling Exception  
+- Object-Oriented Exception Handling with Classes  
+- `throw` and `catch` Multiple Exceptions  
+- Using Exception Handlers to Recover from Errors  
+- Extracting Data from Exception Class  
+- Unwinding Stack  
+- Rethrowing Exception  
+- Handling `bad_alloc` Exception  
+- Function Template  
+- Using Operators in Function Templates  
+- Function Templates with Multiple Types  
+
+## Chapter 18: Linked Lists
+[Go to Full Chapter Content](../)
+- Linked List ADT  
+- Advantages of Linked Lists over Arrays and Vectors  
+- Composition of Linked List  
+- Basic Linked List Operations  
+- Contents of `NumberList.h`  
+- Contents of `NumberList.cpp`  
+- Counting Nodes in List  
+- Displaying List Nodes in Reverse Order  
+
+## Chapter 19: Stacks and Queues
+[Go to Full Chapter Content](../)
+- Stack ADT  
+- Applications of Stacks  
+- Static and Dynamic Stacks  
+- Stack Operations  
+- Static Stack Class: `IntStack`  
+  - Contents of `IntStack.h`  
+  - Contents of `IntStack.cpp`  
+- Other Stack Operations  
+  - Contents of `MathStack.h`  
+  - Contents of `MathStack.cpp`  
+- STL Stack Adapter  
+- STL Queue Container Adapter  
+- Deque Container  
+- Deque Member Function Examples and Description  
+
+## Chapter 20: Recursion
+[Go to Full Chapter Content](../)
+- Recursive Function  
+- Solving Problems with Recursion  
+- Recursive Factorial  
+- Recursive Binary Search Algorithm  
+- Towers of Hanoi  
+- Change-Making with Recursion  
+- Recursion vs. Iteration  
+
+## Chapter 21: Binary Trees
+[Go to Full Chapter Content](../)
+- Binary Trees  
+- Applications of Binary Trees  
+- Many Operations by Using ADT on Binary Search Tree  
+- Creating Binary Tree  
+  - Contents of `IntBinaryTree.h`  
+  - Contents of `IntBinaryTree.cpp`  
+- Binary Search Tree Traversals  
+  - In-Order  
+  - Pre-Order  
+  - Post-Order  
+- Destroying the Tree  
+- Searching and Deleting from Tree  
+
 [🔼 Back to Top](#top)

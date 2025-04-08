@@ -21,7 +21,7 @@ See all the session photos and feedback here 👉 [Session Highlights](./feedbac
 
 ## 📖 Book Overview
 
-This book is the result of intense effort, dedication, and over 3 hours of daily work since 2014. It teaches C++ fundamentals through step-by-step guidance, real-world examples, and beginner-friendly language. It’s designed for learners with little or no programming experience.
+This book is the result of intense effort, dedication, and daily work. It teaches C++ fundamentals through step-by-step guidance, real-world examples, and beginner-friendly language. It’s designed for learners with little or no programming experience.
 
 > 📚 Run all code examples in Visual Studio to see output live.
 
