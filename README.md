@@ -9,12 +9,12 @@
 
 **Youssef started learning C++ with me from scratch. Despite being in middle school, he showed incredible enthusiasm, stayed for full sessions, and kept pushing forward. Thanks to his effort and early mentorship, he won the prestigious Al-Quds coding competition, earned a scholarship from the Egyptian Ministry of Communications, and qualified for the National Olympiad in Informatics. I’m truly proud to have been part of his journey. He reminds us that early encouragement can unlock greatness.**
 
-**Youssef a success story:** ![Yossef](./images/feedback/3-3-youseeffeedback.png)
+**Youssef's success story:** ![See More](./images/feedback/3-3-youseeffeedback.png)
 
-**View all of Youssef’s messages expressing his appreciation:** [Youssef](./Success-Story.md)
+**View all of Youssef’s messages expressing his appreciation:** [Youssef Feedback](./Success-Story.md)
 
 
-## 📸 Highlights from this Book **Free** Live Sessions in Action.
+## 📸 **Highlights from** Free Live Book Sessions.
 
 See all the session photos and feedback here 👉 [Session Highlights](./feedback.md)
 
@@ -78,31 +78,10 @@ This book is the result of intense effort, dedication, and over 3 hours of daily
 - Simulation and project-based learning
 
 
-## 👨‍💻 About the Author
-
-I am a **Senior DevOps Engineer** with 10+ years of experience in cloud automation, infrastructure as code (IaC), and CI/CD pipeline optimization. My expertise lies in designing, building, and securing scalable cloud environments using **Terraform**, **Kubernetes**, and **GitHub Advanced Security** across **Azure** and **AWS**.
-
-
-### 🚀 Key Achievements
-
-- ⚙️ Reduced deployment time by 50% through advanced CI/CD automation and IaC
-- 💰 Optimized cloud costs by 40% through efficient scaling strategies
-- ☸️ Built and managed high-availability Kubernetes clusters (AKS & EKS) with Terraform & Helm
-- 🛡️ Designed enterprise-scale DevOps architectures with security-first, automation-driven approaches
-
-
-### 💡 What I’m Passionate About
-
-- **Driving Innovation:** Improving efficiency, security, and reliability
-- **Mentoring & Knowledge Sharing:** Helping engineers grow and succeed
-- **Automation & Cloud Optimization:** Implementing smart, scalable infrastructure
-
-📩 *Let’s connect to discuss cloud automation, DevOps best practices, and scaling modern infrastructure!*
-
-
 ## 🚀 Continuous Integration and Branch Protection
 
 This repository employs GitHub Actions for Continuous Integration (CI) to ensure that all code changes meet our quality standards before being merged into the main branch. 
+
 
 ### 🔄 Continuous Integration with GitHub Actions
 
@@ -141,7 +120,27 @@ This repository utilizes [Git Large File Storage (LFS)](https://git-lfs.github.c
 - Thomas H. Cormen. *Introduction to Algorithms*, MIT Press.
 
 
-## 📢 Stay Connected
+## 👨‍💻 About the Author
+
+I am a **Senior DevOps Engineer** with 10+ years of experience in cloud automation, infrastructure as code (IaC), and CI/CD pipeline optimization. My expertise lies in building, and securing scalable cloud environments using **Terraform**, **Kubernetes**, and **GitHub Advanced Security** across **Azure** and **AWS**.
+
+
+### 🚀 Key Achievements
+
+- ⚙️ Reduced deployment time by 50% through advanced CI/CD automation and IaC
+- 💰 Optimized cloud costs by 40% through efficient scaling strategies
+- ☸️ Built and managed high-availability Kubernetes clusters (AKS & EKS) with Terraform & Helm
+- 🛡️ Designed enterprise-scale DevOps architectures with security-first, automation-driven approaches
+
+
+### 💡 What I’m Passionate About
+
+- **Driving Innovation:** Improving efficiency, security, and reliability
+- **Mentoring & Knowledge Sharing:** Helping engineers grow and succeed
+- **Automation & Cloud Optimization:** Implementing smart, scalable infrastructure
+
+
+## 📩 Stay Connected
 
 Follow the author:
 - Gamil: [engineerwahba@gmail.com](mailto:engineerwahba@gmail.com) | LinkedIn: [LinkedIn](https://www.linkedin.com/in/wahbamousa/)
