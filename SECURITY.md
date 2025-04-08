@@ -16,7 +16,6 @@ Please include:
 
 We will acknowledge your report within **48 hours** and keep you informed throughout the process.
 
----
 
 ## 📜 Disclosure Policy
 
@@ -25,15 +24,11 @@ We will acknowledge your report within **48 hours** and keep you informed throug
 - Once resolved, we’ll notify you and optionally credit you (if you wish).
 - We’ll disclose the vulnerability publicly **after** a fix is released.
 
----
 
 ## 🔄 Updates & Best Practices
 
-- Security fixes are announced in [Releases](https://github.com/your-username/your-repo/releases).
-- Follow our [Configuration Guide](docs/security.md) for secure setup.
 - Keep dependencies up-to-date to avoid known vulnerabilities.
 
----
 
 ## 🙏 Acknowledgments
 

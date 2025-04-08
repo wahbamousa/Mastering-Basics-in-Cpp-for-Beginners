@@ -14,7 +14,6 @@
 
 ![**6** ](./images/feedback/feedback3.png)
 
----
 
 ### Live Sessions
 
@@ -28,7 +27,6 @@
 
 ![**8**](./images/sessions/freesession(3).png)
 
----
 
 ### Amazing Kids Sessions
 

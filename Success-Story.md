@@ -17,6 +17,3 @@
 ![**As a result**](./images/feedback/3-youseeffeedback.png)
 
 
-## 📸 Highlights from this Book **Free** Live Sessions in Action.
-
-See all the session photos and feedback here 👉 [Session Highlights](./feedback.md)

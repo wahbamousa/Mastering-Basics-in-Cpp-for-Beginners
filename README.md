@@ -14,6 +14,11 @@
 **View all of Youssef’s messages expressing his appreciation:** [Youssef](./Success-Story.md)
 
 
+## 📸 Highlights from this Book **Free** Live Sessions in Action.
+
+See all the session photos and feedback here 👉 [Session Highlights](./feedback.md)
+
+
 ## 📖 Book Overview
 
 This book is the result of intense effort, dedication, and over 3 hours of daily work since 2014. It teaches C++ fundamentals through step-by-step guidance, real-world examples, and beginner-friendly language. It’s designed for learners with little or no programming experience.
@@ -22,6 +27,7 @@ This book is the result of intense effort, dedication, and over 3 hours of daily
 
 
 ## 📅 Table of Contents
+
 - [Book Content](./source/chapters.md)
 - [Key Features](#-key-features)
 - [Who Should Read This?](#-who-should-read-this)
@@ -38,13 +44,15 @@ This book is the result of intense effort, dedication, and over 3 hours of daily
 
 
 ## 🎯 Key Features
+
 - **Zero to Hero:** Start with "Hello World" and progress to clean, efficient code
-- **Modern Standards:** Covers C++11/14/17 best practices
+- **Modern Standards:** Covers best practices
 - **Hands-On Learning:** 50+ exercises and projects
 - **Free & Open Source:** No paywalls, forever
 
 
 ## 👩🎓 Who Should Read This?
+
 - Absolute beginners in programming
 - CS students needing C++ fundamentals
 - Developers seeking a structured refresher
@@ -55,12 +63,14 @@ This book is the result of intense effort, dedication, and over 3 hours of daily
 
 
 ## ⏳ What You Will Save
+
 - **Time:** Skip fragmented tutorials
 - **Money:** Free alternative to paid courses
 - **Effort:** Gain practical, industry-relevant skills
 
 
 ## 🌍 Real-World Applications
+
 - File I/O and formatting
 - Debugging and error handling
 - Menu systems and input validation
@@ -74,6 +84,7 @@ I am a **Senior DevOps Engineer** with 10+ years of experience in cloud automati
 
 
 ### 🚀 Key Achievements
+
 - ⚙️ Reduced deployment time by 50% through advanced CI/CD automation and IaC
 - 💰 Optimized cloud costs by 40% through efficient scaling strategies
 - ☸️ Built and managed high-availability Kubernetes clusters (AKS & EKS) with Terraform & Helm
@@ -81,6 +92,7 @@ I am a **Senior DevOps Engineer** with 10+ years of experience in cloud automati
 
 
 ### 💡 What I’m Passionate About
+
 - **Driving Innovation:** Improving efficiency, security, and reliability
 - **Mentoring & Knowledge Sharing:** Helping engineers grow and succeed
 - **Automation & Cloud Optimization:** Implementing smart, scalable infrastructure
@@ -91,9 +103,10 @@ I am a **Senior DevOps Engineer** with 10+ years of experience in cloud automati
 ## 🚀 Continuous Integration and Branch Protection
 
 This repository employs GitHub Actions for Continuous Integration (CI) to ensure that all code changes meet our quality standards before being merged into the main branch. 
+
 ### 🔄 Continuous Integration with GitHub Actions
 
-Our CI pipeline is defined using GitHub Actions workflows, which automate the building and testing of code changes. This automation helps in early detection of issues and maintains the integrity of our codebase. :contentReference[oaicite:3]{index=3}
+Our CI pipeline is defined using GitHub Actions workflows, which automate the building and testing of code changes. This automation helps in early detection of issues and maintains the integrity of our codebase. 
 
 
 ## 🔒 Security Best Practices (GHAS Compliant)
