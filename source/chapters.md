@@ -17,6 +17,13 @@
 - [Chapter 12: File Operations](#chapter-12-file-operations)
 - [Chapter 13: Classes](#chapter-13-classes)
 - [Chapter 14: Tables](#chapter-14-tables)
+- [Chapter 15: Searching and Sorting Arrays](Chapter15-Searching-and-Sorting-Arrays)
+- [Chapter 16: Inheritance, Polymorphism, and Virtual Functions](Chapter16-Inheritance-Polymorphism-Virtual-Functions)
+- [Chapter 17: Exceptions, Templates and Standard Template Library (STL)](Chapter17-Exceptions-Templates-STL)
+- [Chapter 18: Linked Lists](Chapter18-Linked-Lists)
+- [Chapter 19: Stacks and Queues](Chapter19-Stacks-and-Queues)
+- [Chapter 20: Recursion](Chapter20-Recursion)
+- [Chapter 21: Binary Trees](Chapter21-Binary-Trees)
 
 
 ## Chapter 1: Introduction to Computer and Programming 
