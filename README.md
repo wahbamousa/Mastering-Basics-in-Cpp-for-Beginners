@@ -17,6 +17,16 @@
 
 **View all of Youssef’s messages expressing his appreciation:** [Youssef Feedback](./Success-Story.md)
 
+## 📅 Table of Contents
+
+- [Book Content](./source/chapters.md)
+- [Key Features](#-key-features)
+- [Who Should Read This?](#-who-should-read-this)
+- [What You'll Save](#-what-you-will-save)
+- [Real-World Applications](#-real-world-applications)
+- [Author Bio](#-about-the-author)
+- [References](#-references)
+
 
 ## 📸 **Highlights from** Free Live Book Sessions.
 
@@ -28,17 +38,6 @@ See all the session photos and feedback here 👉 [Session Highlights](./feedbac
 This book is the result of intense effort, dedication, and daily work. It teaches C++ fundamentals through step-by-step guidance, real-world examples, and beginner-friendly language. It’s designed for learners with little or no programming experience.
 
 > 📚 Run all code examples in Visual Studio to see output live.
-
-
-## 📅 Table of Contents
-
-- [Book Content](./source/chapters.md)
-- [Key Features](#-key-features)
-- [Who Should Read This?](#-who-should-read-this)
-- [What You'll Save](#-what-you-will-save)
-- [Real-World Applications](#-real-world-applications)
-- [Author Bio](#-about-the-author)
-- [References](#-references)
 
 
 ## 📂 Resources
