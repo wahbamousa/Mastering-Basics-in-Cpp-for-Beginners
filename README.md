@@ -2,7 +2,11 @@
 
 *A beginner-friendly guide to learning C++ from scratch. Build a strong foundation with clear explanations, hands-on examples, and practical projects.*
 
-[![Beta](https://img.shields.io/badge/Status-Beta-orange)](https://github.com/wahbamousa/Mastering-Basics-in-Cpp-for-Beginners) [![License](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey)](https://creativecommons.org/licenses/by-nc/4.0/) **Under Development**
+**Under Development**
+
+[![Beta](https://img.shields.io/badge/Status-Beta-orange)](https://github.com/wahbamousa/Mastering-Basics-in-Cpp-for-Beginners) [![License](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey)](https://creativecommons.org/licenses/by-nc/4.0/) 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/username/repo-name)
+![Build](https://github.com/WahbaDev/awesome-cpp-book/actions/workflows/build.yml/badge.svg)
 
 
 ## 📸 A Success Story.

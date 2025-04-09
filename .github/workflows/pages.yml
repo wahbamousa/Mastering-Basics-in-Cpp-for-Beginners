@@ -1,16 +1,56 @@
-name: GitHub Pages
+name: Deploy & Auto Release
 
 on:
   push:
     branches:
       - main
 
+permissions:
+  contents: write  # Needed to push tags and create releases
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: peaceiris/actions-gh-pages@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Get latest tag
+        id: get_tag
+        run: |
+          latest_tag=$(git describe --tags --abbrev=0 || echo "v0.0.0")
+          echo "Latest tag: $latest_tag"
+          echo "latest_tag=$latest_tag" >> $GITHUB_OUTPUT
+
+      - name: Bump patch version
+        id: bump
+        run: |
+          IFS='.' read -r major minor patch <<<"${{ steps.get_tag.outputs.latest_tag#v }}"
+          new_tag="v$major.$minor.$((patch+1))"
+          echo "New tag: $new_tag"
+          echo "new_tag=$new_tag" >> $GITHUB_OUTPUT
+
+      - name: Configure Git
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+
+      - name: Create and push new tag
+        run: |
+          git tag ${{ steps.bump.outputs.new_tag }} -m "Auto release ${{ steps.bump.outputs.new_tag }}"
+          git push origin ${{ steps.bump.outputs.new_tag }}
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.bump.outputs.new_tag }}
+          name: "Release ${{ steps.bump.outputs.new_tag }}"
+          draft: false
+          prerelease: false
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./chapters
