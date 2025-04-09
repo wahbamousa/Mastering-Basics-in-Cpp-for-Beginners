@@ -146,7 +146,11 @@ I am a **Senior DevOps Engineer** with 10+ years of experience in cloud automati
 ## 📩 Stay Connected
 
 Follow the author:
-- Gamil: [engineerwahba@gmail.com](mailto:engineerwahba@gmail.com) | LinkedIn: [LinkedIn](https://www.linkedin.com/in/wahbamousa/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/wahbamousa/)
+
+## 📦 Repository Maintenance
+
+🔒 This repository uses the Purge Repository Data GitHub Action to remove sensitive data, reduce repository size, and maintain a clean Git history. This helps keep the project secure, efficient, and contributor-friendly.
 
 ---
 
